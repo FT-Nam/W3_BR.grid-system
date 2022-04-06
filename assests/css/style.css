@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+/* Header */
+.header{
+    height: 54px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+}
+.menu-sidebar{
+    float:right;
+}
+.item-sidebar,
+.title-sidebar{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 4px;
+    line-height: 54px;
+}
+.item-sidebar{
+    padding: 0 12px;
+    text-align: center;
+}
+.item-sidebar:hover,
+.title-sidebar:hover{
+    background-color: #ccc;
+   display: inline-block;
+}
+
+
+/* IMG */
+.content .img-section{
+    position: relative;
+    background-image: url(../img/slider/architect.jpg);
+    width: 100%;
+    background-size: cover;
+    padding-top: 50%;
+    
+}
+.content .content-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.content-img .img-title,
+.content-img .img-title b{
+    font-size: 36px;
+    letter-spacing: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.content-img .img-title{
+    color: #f1f1f1;
+}
+
+.content-img .img-title b{
+    color: #fff;
+    background-color: #000;
+    padding: 8px 16px;
+    opacity: 0.75;
+}
+
+
+/* Common-content */
+.title-section {
+    padding-top: 64px;
+    font-size: 24px;
+}
+h1.content-title {
+    font-size: 24px;
+    font-weight: 400;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+}
+/* Project */
+
+
+
+img.house-item {
+    padding-top: 16px;
+    width: 100%;
+}
+
+.img-house-container{
+    position: relative;
+}
+.content-house-item{
+    position: absolute;
+    top: 16px;
+    left: 0;
+    color: #fff;
+    background-color: #000;
+    width: 148px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+}
+
+
+/* About */
+.content-about{
+margin-top: -22px;
+padding-bottom: 47px;
+}
+.img-about-container{
+
+}
+.img-about-item{
+    width: 100%;
+    filter: grayscale(1);
+}
+.content-img-about h3{
+padding-top: 10px;
+font-weight: 400;
+font-size: 24px;
+}
+.content-img-about p{
+margin: 15px 0;
+line-height: 1.5;
+}
+.content-img-about .job-about{
+    opacity: 0.6;
+}
+
+.btn-about {
+    border: none;
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 8px 16px;
+    margin-bottom: 24px;
+}
+.btn-about:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+/* Contact */
+.contact-form {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-top: 16px;
+}
+.content-contact{
+    margin-top: -22px;
+}
+.btn-contact {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    margin: 24px 0;
+}
+.btn-contact:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+/* Map */
+.map-img{
+  width: 100%;
+  height: auto;
+}
+
+/* Footer */
+.footer {
+    background-color: #000;
+    color: #fff;
+    height: 84.5px;
+    line-height: 84.5px;
+    text-align: center;
+    margin-top: 2px;
+}
+.copyright-footer{
+    color: #fff;
+}
